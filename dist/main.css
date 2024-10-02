@@ -10940,19 +10940,3 @@ textarea.form-control-lg {
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
   \*********************************************************************/
 
-
-/*
-To bundle everything including css, so I dont have to connect it with
-I make this folder and put style.css, 
-In webpack.config.js i write this right after output object:
-module: {
-        rules: [
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
-            },
-        ],
-    },
-and then in terminal I write: npm run build
-and it will be implemented and bundled
-*/
